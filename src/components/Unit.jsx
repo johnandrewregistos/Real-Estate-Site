@@ -22,6 +22,10 @@ const Unit = () => {
         constImage.setAttribute('src', aImage);
     };
 
+    if (item.length === 0) {
+        return <div className='w-full h-screen flex justify-center items-center text-4xl'>Loading...</div>;
+    }
+
     return (
         <>
             <div className='w-full h-screen relative flex flex-row bg-black'>
