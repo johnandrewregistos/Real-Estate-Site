@@ -23,7 +23,7 @@ const Condominium = () => {
 
     return (
         <>
-            <div className='w-full h-[1050px] md:h-screen relative flex flex-row bg-black' id='house'>
+            <div className='w-full h-[1000px] md:h-screen relative flex flex-row bg-black' id='house'>
                 {/* background design */}
                 <div className="w-16 h-full border-r border-gray-700"></div>
                 <div className="w-72 h-full border-r border-gray-700"></div>
@@ -36,10 +36,10 @@ const Condominium = () => {
                     <h2 className="w-full my-3 md:my-6 flex justify-center text-white text-xl md:text-3xl tracking-wider">Choose from your comfortzone</h2>
                     <div className='w-full px-2 md:px-6 text-white grid grid-cols-1 md:grid-cols-2 gap-4'>
                         {items.map((item) => (
-                            <div key={item.id} className="w-[400px] md:w-[300px] lg:w-[500px] h-[220px] md:h-[250px] mx-auto">
+                            <div key={item.id} className="w-full md:w-[300px] lg:w-[500px] h-[220px] md:h-[250px] mx-auto">
                                 <div>
                                     <Link to={`/Real-Estate-Site/unit/${item.id}`}>
-                                        <img alt={item.title} className="w-[400px] md:w-[300px] lg:w-[500px] h-[180px] md:h-[220px] object-cover object-center block" src={item.url} />
+                                        <img alt={item.title} className="w-full md:w-[300px] lg:w-[500px] h-[180px] md:h-[220px] object-cover object-center block" src={item.url} />
                                     </Link>
                                     <div className="mt-4 w-full flex justify-between items-center">
                                         <h3 className="text-white text-xs tracking-widest title-font mb-1">{item.name}</h3>

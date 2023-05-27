@@ -13,7 +13,7 @@ const Images = () => {
 
   return (
     <div className='w-full h-screen flex flex-col md:flex-row justify-evenly items-center'>
-      <Link to={`/Real-Estate-Site/type/${currentItem1.name}`} className="w-full md:w-2/6 h-[225px] md:h-full bg-black cursor-pointer">
+      <Link to={`/Real-Estate-Site/type/${currentItem1.name}`} className="w-full md:w-2/6 h-2/6 md:h-full bg-black cursor-pointer">
         <div className='group overflow-hidden border-2 border-black/50 relative w-full h-full bg-black'>
           {/** overlay */}
           <div className='group-hover:bg-black/75 w-full h-full absolute z-40 transition-all duration-300'>
@@ -34,7 +34,7 @@ const Images = () => {
           </div>
         </div>
       </Link>
-      <Link to={`/Real-Estate-Site/type/${currentItem2.name}`} className="w-full md:w-2/6 h-[225px] md:h-full bg-black cursor-pointer">
+      <Link to={`/Real-Estate-Site/type/${currentItem2.name}`} className="w-full md:w-2/6 h-2/6 md:h-full bg-black cursor-pointer">
         <div className='group overflow-hidden border-2 border-black/50 relative w-full h-full bg-black'>
           {/** overlay */}
           <div className='group-hover:bg-black/75 w-full h-full absolute z-40 transition-all duration-300'>
@@ -55,7 +55,7 @@ const Images = () => {
           </div>
         </div>
       </Link>
-      <Link to={`/Real-Estate-Site/type/${currentItem3.name}`} className="w-full md:w-2/6 h-[225px] md:h-full bg-black cursor-pointer">
+      <Link to={`/Real-Estate-Site/type/${currentItem3.name}`} className="w-full md:w-2/6 h-2/6 md:h-full bg-black cursor-pointer">
         <div className='group overflow-hidden border-2 border-black/50 relative w-full h-full bg-black'>
           {/** overlay */}
           <div className='group-hover:bg-black/75 w-full h-full absolute z-40 transition-all duration-300'>

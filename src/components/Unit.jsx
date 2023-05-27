@@ -33,8 +33,8 @@ const Unit = () => {
                 <div className="w-72 h-full border-r border-gray-700"></div>
 
                 <div className="absolute w-full h-full flex">
-                    <div className="container h-full flex flex-row md:flex-col mx-auto ">
-                        <div className="w-5/6 md:w-full h-[550px] mt-8 flex flex-col md:flex-row justify-between items-center px-2 lg:px-8 ">
+                    <div className="w-full h-full flex flex-row md:flex-col mx-3 lg:mx-8 ">
+                        <div className="w-4/6 md:w-full h-[550px] mt-8 flex flex-col md:flex-row justify-between items-center px-2 lg:px-8 ">
                             {/* Image */}
                             <div className='w-full md:w-3/5 h-[235px] md:h-[500px]'>
                                 <img className='w-full h-[200px] md:h-[400px]' src={item?.url} alt={item?.title} id='image' />
@@ -53,42 +53,42 @@ const Unit = () => {
                                 <Link to='contact' activeClass='active' smooth={true} spy={true} className='w-40 flex items-end text-white hover:text-brown tracking-wider cursor-pointer'>Buy this House. <FaLongArrowAltRight className='ml-2' /></Link>
                             </div>
                         </div>
-                        <div className="w-1/6 md:w-full h-full md:h-[150px] flex flex-col md:flex-row justify-evenly items-center mt-0 md:-mt-24 pr-3">
-                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-[80px] md:w-[160px] h-[95px] md:h-full bg-black'>
+                        <div className="w-2/6 md:w-full h-full md:h-[150px] flex flex-col md:flex-row justify-evenly items-center mt-0 md:-mt-24 pr-0 lg:pr-3">
+                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-full md:w-[160px] h-[95px] md:h-full bg-black'>
                                 {/** img */}
-                                <img src={item?.url} alt={item?.title} className='w-[80px] md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
+                                <img src={item?.url} alt={item?.title} className='w-full md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
                                 {/** pretitle */}
                                 <div className='absolute w-full flex justify-center -bottom-full left-0 group-hover:bottom-0 md:group-hover:bottom-4 group-hover:bg-black/75 transition-all duration-500 z-50'>
                                     <span className='tracking-wider text-white text-sm'>Home</span>
                                 </div>
                             </a>
-                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-[80px] md:w-[160px] h-[95px] md:h-full bg-black'>
+                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-full md:w-[160px] h-[95px] md:h-full bg-black'>
                                 {/** img */}
-                                <img src={item?.url1} alt={item?.title} className='w-[80px] md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
+                                <img src={item?.url1} alt={item?.title} className='w-full md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
                                 {/** pretitle */}
                                 <div className='absolute w-full flex justify-center -bottom-[130px] left-0 group-hover:bottom-0 md:group-hover:bottom-4 group-hover:bg-black/75 transition-all duration-500 z-50'>
                                     <span className='tracking-wider text-white text-sm'>Dinning Area</span>
                                 </div>
                             </a>
-                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-[80px] md:w-[160px] h-[95px] md:h-full bg-black'>
+                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-full md:w-[160px] h-[95px] md:h-full bg-black'>
                                 {/** img */}
-                                <img src={item?.url2} alt={item?.title} className='w-[80px] md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
+                                <img src={item?.url2} alt={item?.title} className='w-full md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
                                 {/** pretitle */}
                                 <div className='absolute w-full flex justify-center -bottom-[130px] left-0 group-hover:bottom-0 md:group-hover:bottom-4 group-hover:bg-black/75 transition-all duration-500 z-50'>
                                     <span className='tracking-wider text-white text-sm'>Kitchen Area</span>
                                 </div>
                             </a>
-                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-[80px] md:w-[160px] h-[95px] md:h-full bg-black'>
+                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-full md:w-[160px] h-[95px] md:h-full bg-black'>
                                 {/** img */}
-                                <img src={item?.url3} alt={item?.title} className='w-[80px] md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
+                                <img src={item?.url3} alt={item?.title} className='w-full md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
                                 {/** pretitle */}
                                 <div className='absolute w-full flex justify-center -bottom-[130px] left-0 group-hover:bottom-0 md:group-hover:bottom-4 group-hover:bg-black/75 transition-all duration-500 z-50'>
                                     <span className='tracking-wider text-white text-sm'>Living Area</span>
                                 </div>
                             </a>
-                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-[80px] md:w-[160px] h-[95px] md:h-full bg-black'>
+                            <a onClick={() => handleImageChange()} className='group overflow-hidden border-2 border-black/50 relative w-full md:w-[160px] h-[95px] md:h-full bg-black'>
                                 {/** img */}
-                                <img src={item?.url4} alt={item?.title} className='w-[80px] md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
+                                <img src={item?.url4} alt={item?.title} className='w-full md:w-[160px] h-[90px] md:h-[130px] cursor-pointer rounded-xl' />
                                 {/** pretitle */}
                                 <div className='absolute w-full flex justify-center -bottom-[130px] left-0 group-hover:bottom-0 md:group-hover:bottom-4 group-hover:bg-black/75 transition-all duration-500 z-50'>
                                     <span className='tracking-wider text-white text-sm'>Bed Room</span>
