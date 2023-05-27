@@ -66,7 +66,7 @@ const Highlight = () => {
               </div>
               {/* Image */}
               <Link to={`/Real-Estate-Site/unit/${currentItem.id}`} className='w-full md:w-3/5 h-[300px] md:h-[500px] px-2 md:px-0'>
-                <img className='w-full h-[300px]' src={currentItem.url} alt="" />
+                <img className='w-full h-[300px] md:h-[500px]' src={currentItem.url} alt={currentItem.title} />
               </Link>
             </div>
           </div>
