@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <section className="text-white body-font bg-black/90 relative" id='contact'>
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-12 md:py-24 mx-auto">
           <div className="flex flex-col text-center w-full">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-brown">Contact Us</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed tracking-wide text-white text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>

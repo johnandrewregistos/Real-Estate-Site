@@ -1,12 +1,12 @@
 import React from 'react'
 import { BsBox } from 'react-icons/bs';
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer class="text-white bg-black">
       <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
-        <Link to='home' activeClass='active' smooth={true} spy={true} class="flex  title-font font-medium items-center md:justify-start justify-center ">
+        <Link to={'/Real-Estate-Site/'} class="flex  title-font font-medium items-center md:justify-start justify-center ">
           <BsBox className='text-4xl text-brown cursor-pointer' />
         </Link>
         <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 AndrewRegistos —
