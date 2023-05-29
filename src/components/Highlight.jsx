@@ -62,10 +62,10 @@ const Highlight = () => {
                 <div className='w-full pl-8 md:pl-16 my-4 md:my-8'>
                   <h3 className='text-white text-sm lg:text-baseline tracking-wider'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum accusamus, delectus nesciunt eligendi porro, voluptate aliquam a eius quam aperiam. Consequuntur, similique nesciunt quasi eveniet rerum fugiat sint maxime mollitia. </h3>
                 </div>
-                <Link to={`/Real-Estate-Site/unit/${currentItem.id}`} reloadDocument className='w-40 flex items-end text-white hover:text-brown tracking-wider'>View My House. <FaLongArrowAltRight className='ml-2' /></Link>
+                <Link to={`/Real-Estate-Site/unit/${currentItem.id}`} className='w-40 flex items-end text-white hover:text-brown tracking-wider'>View My House. <FaLongArrowAltRight className='ml-2' /></Link>
               </div>
               {/* Image */}
-              <Link to={`/Real-Estate-Site/unit/${currentItem.id}`} reloadDocument className='w-full md:w-3/5 h-[300px] lg:h-[500px] px-2 md:px-0'>
+              <Link to={`/Real-Estate-Site/unit/${currentItem.id}`} className='w-full md:w-3/5 h-[300px] lg:h-[500px] px-2 md:px-0'>
                 <img className='w-full h-[300px] lg:h-[500px]' src={currentItem.url} alt={currentItem.title} />
               </Link>
             </div>
