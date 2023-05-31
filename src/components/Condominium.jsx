@@ -37,7 +37,7 @@ const Condominium = () => {
                     <div className='w-full px-2 md:px-6 text-white grid grid-cols-1 md:grid-cols-2 gap-4'>
                         {items.map((item) => (
                             <div key={item.id} className="w-full md:w-[300px] lg:w-[500px] h-[220px] md:h-[250px] mx-auto mb-0 lg:mb-2">
-                                <Link to={`/Real-Estate-Site/unit/${item.id}`} reloadDocument>
+                                <Link to={`/Real-Estate-Site/unit/${item.id}`}>
                                     <img alt={item.title} className="w-full md:w-[300px] lg:w-[500px] h-[180px] md:h-[220px] object-cover object-center block" src={item.url} />
                                 </Link>
                                 <div className="mt-2 w-full flex justify-between items-center">
