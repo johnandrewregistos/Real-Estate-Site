@@ -16,7 +16,6 @@ const Highlight = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + data.length) % data.length);
   };
 
-
   return (
     <>
       <div className='w-full h-screen relative flex flex-row bg-black' id='house'>
